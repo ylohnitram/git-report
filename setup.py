@@ -10,7 +10,10 @@ setup(
         "click>=8.0.0",
         "openai>=1.0.0",
         "markdown>=3.3.0",
-        "jinja2>=3.0.0",  # For HTML templates
+        "jinja2>=3.0.0",
+        "PyGithub>=1.55",  # For GitHub API
+        "PyJWT>=2.0.0",  # For GitHub App JWT
+        "cryptography>=3.4.0",  # For GitHub App private key handling
     ],
     entry_points={
         "console_scripts": [
